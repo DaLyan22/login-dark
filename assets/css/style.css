@@ -1,0 +1,197 @@
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body * {
+    box-sizing: border-box;
+}
+
+.main-login {
+    width: 100vw;
+    height: 100vh;
+    background: #201b2c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-login {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 6%;
+}
+
+.left-login h1 {
+    color: #c538de;
+    font-size: 2.7em;
+
+}
+
+.right-login {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 4%;
+}
+
+
+
+form {
+    width: 53%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2% 3%;
+    background-color: #2f2841;
+    box-shadow: 0 10px 40px #c538de;
+    border-radius: 10px;
+}
+
+form h1 {
+    color: #c538de;
+    font-size: 2.5em;
+}
+form h3 {
+    color: #c538de;
+    font-size: 2em;
+}
+
+
+.email {
+    width: 80%;
+    height: 40px;
+    border-radius: 12px;
+    border: solid 1px rgb(85, 85, 85);
+    margin: 30px 0;
+    font-size: 19px;
+    padding-left: 20px;
+    transition: 0.4s;
+}
+
+.senha {
+    width: 80%;
+    height: 40px;
+    border-radius: 12px;
+    border: solid 1px rgb(85, 85, 85);
+    margin-bottom: 30px;
+    font-size: 19px;
+    padding-left: 20px;
+    transition: 0.4s;
+}
+
+.entrar {
+    background-color: #c538de;
+    width: 83%;
+    height: 48px;
+    text-align: center;
+    font-size: 22px;
+    transition: .4s;
+    margin-bottom: 22px;
+    border: solid 1px #c538de;
+    border-radius: 12px;
+    color: white;
+    cursor: pointer;
+}
+
+
+.entrar:hover {
+    background-color: rgb(236, 125, 253);
+    letter-spacing: 4px;
+border: solid 1px rgb(244, 173, 255);
+border-radius: 24px;
+}
+
+.roxo {
+    background-color: #c538de;
+    border-radius: 50%;
+    width: 80%;
+    margin: 0 18px;
+    transition: 0.4s;
+}
+
+.roxo2 {
+    background-color: #c538de;
+    border-radius: 50%;
+    width: 80%;
+    margin: 0 18px;
+    transition: 0.4s;
+}
+
+
+
+.ways {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* ---------------------------------------------------------*/
+
+li img {
+    text-decoration: none;
+    padding: 9px 14px;
+    display: inline;
+    text-align: center;
+    cursor: pointer;
+}
+
+li {
+    display: inline;
+    font-size: 22px;
+    
+    
+
+}
+
+li img {
+    background-color: white;
+    color: white;
+    border: solid 1px white;
+    border-radius: 12px;
+    transition: .4s;
+    color: #81749e;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #2f2841;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+li img:hover {
+   background-color: bisque;
+
+}
+
+@media only screen and (max-width: 950px) {
+  form  {
+    width: 85%;
+  }
+  .image {
+    width: 60%;
+    height: 68%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+    .left-login{
+        display: none;
+    }
+    .right-login{
+        width: 100%;
+    }
+}  
