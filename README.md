@@ -10,5 +10,5 @@
 
 <h5 align="center"> Teste você mesmo meu projeto por meio desse link, caso encontre algum bug nele, por favor me avise </h5>
 <p align="center">
-<a href="https://dark-login.glitch.me/?">Teste agora mesmo!</a>
+<a href="https://dark-login.glitch.me/?" target="_blank">Teste agora mesmo!</a>
 </p>
