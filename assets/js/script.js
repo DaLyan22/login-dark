@@ -1,6 +1,6 @@
 function luz(){
     const corpo = document.getElementById('body')
-    corpo.style.backgroundColor = 'white'
+    corpo.style.backgroundColor = '#dfd6d'
     
 }
 
