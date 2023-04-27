@@ -49,16 +49,16 @@ form {
     flex-direction: column;
     padding: 2% 3%;
     background-color: #2f2841;
-    box-shadow: 0 10px 40px #c538de;
+    box-shadow: 0 0px 30px #c538de;
     border-radius: 10px;
 }
 
 form h1 {
-    color: #c538de;
+    color: white;
     font-size: 2.5em;
 }
 form h3 {
-    color: #c538de;
+    color: white;
     font-size: 2em;
 }
 
@@ -193,5 +193,6 @@ li img:hover {
     }
     .right-login{
         width: 100%;
-    }
+    
 }  
+}
